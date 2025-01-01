@@ -2,6 +2,8 @@ name: hello world
 
 on:
   workflow_dispatch:
+    branches:
+      - 1_hello_world_start
 
 jobs:
   print-hello-world:
